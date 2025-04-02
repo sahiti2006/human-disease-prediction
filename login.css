@@ -1,0 +1,53 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-image: url(image.png);
+  background-attachment: fixed; /* Keeps the background fixed during scroll */
+}
+
+
+
+section{
+    text-align: center;
+   
+    size: 200px;
+    
+    border-radius: 100px;
+    max-width: 100cm;
+
+}
+div img {
+    width: 50px;
+    height: 60px;
+    border-radius: 50cm;
+    
+  }
+  .navbar{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: cursive;
+     
+     color: rgb(3, 17, 43);
+   
+   
+    border-radius: 25px;
+}
+  .navdiv
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo a{
+  font-size: 75px;
+  font-weight: 600;
+   
+}
+li{
+  list-style: none;
+  display:inline-block;
+ margin-right: 25px;
+}
